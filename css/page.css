@@ -1,0 +1,56 @@
+body{
+    background-color: #ade1ff;
+    color: rgb(4, 2, 59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+} 
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+h1{
+    color: rgb(2, 2, 89);
+    font-size: 50px;
+}
+.grupo{
+    display:flex;
+    justify-content:flex-start;
+    gap: 20px;
+    height: 30px;
+    margin-bottom:15px;
+}
+.grupo label, button{
+    width: 100;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grupo button{
+    border-radius: 10px;
+    margin: 2px;
+    color: rgb(76, 0, 255);
+    height: 35px;
+    background-image: linear-gradient(to right);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.grupo input{
+    display: block;
+    border-radius: 7px;
+    font-size: 25px;
+}
+#iva{
+    display: block;
+    margin-left: -20px;
+    width: 40px
+}
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 30px;
+    color: dodgerblue;
+    font-weight: bold;
+}
