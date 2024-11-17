@@ -19,7 +19,7 @@ class Condicon{}
             Escribir.log( num2, "Es igual a" , num1)
         }
     }
-  
+//Ejercicio de días de la semana  
 diaSemana() 
     let dia=0
     dia = Leer("Ingrese numero de dia:")
